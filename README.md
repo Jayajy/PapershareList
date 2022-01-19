@@ -12,4 +12,5 @@ https://ismir.net/ <br>
         3、引入声源分离技术分别评估了带有音乐伴奏的歌声和没有音乐伴奏的歌声。 <br>
         4、尝试了多片段输入对系统性能的改变，事实证明有较大提升。 <br>
   未来工作：考虑到歌声的高度可变性，一个单一的或一个质心的embedding可能不足以代表一个歌手。这将作为本研究的未来工作进行讨论。 <br>
-  
+  Paper/Large-scale_singer_recognition_using_deep_metric_learning_an_experimental_study.pdf
+- 
