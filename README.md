@@ -13,6 +13,7 @@ https://ismir.net/ <br>
         Slowfast网络最先提出于视频分类，低帧率捕获空间语义信息，高帧率捕获动作信息。结合这两种信息可以更全面的表达视频的特征。![image](https://user-images.githubusercontent.com/41570758/150503071-d3b6aebf-848c-4449-9a7d-266cf18e6811.png) <br>
         4、研究了正则化对SlowFast网络的影响以及做了与其他先进模型的比较。![image](https://user-images.githubusercontent.com/41570758/150503286-0516403d-68e7-45e0-9494-2269bb1f4de6.png)
         ![image](https://user-images.githubusercontent.com/41570758/150503310-96cbce6d-9f83-47f1-9bf6-d1f552aaeb14.png) <br>
+  https://github.com/Jayajy/PapershareList/blob/main/Paper/TOWARDS_LEARNING_UNIVERSAL_AUDIO_REPRESENTATIONS.pdf <br>
 ## Music Information Retrieval
 - [IJCNN(International Joint Conference on Neural Networks) 2021]Large-scale singer recognition using deep metric learning: an experimental study <br>
   动机：歌手识别任务由于音乐伴奏对于人声造成的低信噪比，导致其任务较为困难。并且目前针对这一任务的数据集较少，并且数据集内歌手数量也很有限，则限制了识别的泛化性。本文构建了一个由5057个歌手构成的大规模数据集，使用这一数据集进行了一系列的研究。 <br>
