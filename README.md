@@ -24,7 +24,5 @@ https://ismir.net/ <br>
   https://github.com/Jayajy/PapershareList/blob/main/Paper/Large-scale_singer_recognition_using_deep_metric_learning_an_experimental_study.pdf <br>
   
   
-- [ICASSP 2021]MULTI-TASK SELF-SUPERVISED PRE-TRAINING FOR MUSIC CLASSIFICATION <br>
-  动机：
-  方法：
+
   
