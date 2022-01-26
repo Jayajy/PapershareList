@@ -27,7 +27,7 @@ https://web.cse.ohio-state.edu/~wang.77/pnl/ <br>
 - **1.26** [ICASSP 2021]COMPLEX RATIO MASKING FOR SINGING VOICE SEPARATION <br>
    动机方法概述：https://github.com/Jayajy/PapershareList/blob/main/Paper/%E6%8A%A5%E5%91%8ACOMPLEX%20RATIO%20MASKING%20FOR%20SINGING%20VOICE%20SEPARATION.docx<br>
    mir_eval:https://github.com/craffel/mir_eval <br>
-   <br>
+   https://github.com/Jayajy/PapershareList/blob/main/Paper/COMPLEX%20RATIO%20MASKING%20FOR%20SINGING%20VOICE%20SEPARATION.pdf<br>
   
   
 
