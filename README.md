@@ -15,7 +15,10 @@ https://web.cse.ohio-state.edu/~wang.77/pnl/ <br>
         4、研究了正则化对SlowFast网络的影响以及做了与其他先进模型的比较。![image](https://user-images.githubusercontent.com/41570758/150503286-0516403d-68e7-45e0-9494-2269bb1f4de6.png)
         ![image](https://user-images.githubusercontent.com/41570758/150503310-96cbce6d-9f83-47f1-9bf6-d1f552aaeb14.png) <br>
   https://github.com/Jayajy/PapershareList/blob/main/Paper/TOWARDS_LEARNING_UNIVERSAL_AUDIO_REPRESENTATIONS.pdf <br>
-## Music Information Retrieval
+ - [IEEE/ACM TASLP 2020]Learning Complex Spectral Mapping With Gated Convolutional Recurrent Networks for Monaural Speech Enhancemental <br>
+   动机：相位信息对语音质量的影响很大。本文使用复谱映射提取出纯净语音的实部谱和虚部谱，来增强语音的幅度谱和相位谱的准确性。根据前人的工作，本文提出一种新型CRN，提出了一种用于复数谱映射的门控卷积循环网络(GCRN)。 <br>
+   方法：每个卷积层或解卷积层被相应的门控线性单元（GLU）块所取代；LSTM采用了分组策略；在最后一个去卷积层的基础上增加了一个线性层来预测实谱和虚谱。<br>
+## Music Information RetrievLearning 
 - [IJCNN(International Joint Conference on Neural Networks) 2021]Large-scale singer recognition using deep metric learning: an experimental study <br>
   动机：歌手识别任务由于音乐伴奏对于人声造成的低信噪比，导致其任务较为困难。并且目前针对这一任务的数据集较少，并且数据集内歌手数量也很有限，则限制了识别的泛化性。本文构建了一个由5057个歌手构成的大规模数据集，使用这一数据集进行了一系列的研究。 <br>
   方法：1、网络模型使用类似于Thin ResNet-34的架构。 <br>
@@ -24,10 +27,14 @@ https://web.cse.ohio-state.edu/~wang.77/pnl/ <br>
         4、尝试了多片段输入对系统性能的改变，事实证明有较大提升。 <br>
   未来工作：考虑到歌声的高度可变性，一个单一的或一个质心的embedding可能不足以代表一个歌手。这将作为本研究的未来工作进行讨论。 <br>
   https://github.com/Jayajy/PapershareList/blob/main/Paper/Large-scale_singer_recognition_using_deep_metric_learning_an_experimental_study.pdf <br>
-- **1.28** [ICASSP 2021]COMPLEX RATIO MASKING FOR SINGING VOICE SEPARATION <br>
+- [ICASSP 2021]COMPLEX RATIO MASKING FOR SINGING VOICE SEPARATION <br>
    动机方法概述：https://github.com/Jayajy/PapershareList/blob/main/Paper/%E6%8A%A5%E5%91%8ACOMPLEX%20RATIO%20MASKING%20FOR%20SINGING%20VOICE%20SEPARATION.docx<br>
    mir_eval:https://github.com/craffel/mir_eval <br>
    https://github.com/Jayajy/PapershareList/blob/main/Paper/COMPLEX%20RATIO%20MASKING%20FOR%20SINGING%20VOICE%20SEPARATION.pdf<br>
+- [arXiv 2020]VOICE AND ACCOMPANIMENT SEPARATION IN MUSIC USING SELF-ATTENTION CONVOLUTIONAL NEURAL NETWORKS <br>   
+  动机：音乐源分离一直是信号处理中的一个流行话题，不仅因为它在技术上的困难，而且还因为它在许多商业应用中的重要性。本文受到UNet-CNN的启发，推出一种新的自我注意网络来分离音乐中的声音和伴奏。
+  方法：网络结构与上一篇相似，输入和输出是时域上的短时傅里叶变换的频谱图。![image](https://user-images.githubusercontent.com/41570758/151650078-c5d6a63e-cb42-4419-8afe-bed1319aedb5.png)
+
   
   
 
