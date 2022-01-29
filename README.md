@@ -32,8 +32,15 @@ https://web.cse.ohio-state.edu/~wang.77/pnl/ <br>
    mir_eval:https://github.com/craffel/mir_eval <br>
    https://github.com/Jayajy/PapershareList/blob/main/Paper/COMPLEX%20RATIO%20MASKING%20FOR%20SINGING%20VOICE%20SEPARATION.pdf<br>
 - [arXiv 2020]VOICE AND ACCOMPANIMENT SEPARATION IN MUSIC USING SELF-ATTENTION CONVOLUTIONAL NEURAL NETWORKS <br>   
-  动机：音乐源分离一直是信号处理中的一个流行话题，不仅因为它在技术上的困难，而且还因为它在许多商业应用中的重要性。本文受到UNet-CNN的启发，推出一种新的自我注意网络来分离音乐中的声音和伴奏。
-  方法：网络结构与上一篇相似，输入和输出是时域上的短时傅里叶变换的频谱图。![image](https://user-images.githubusercontent.com/41570758/151650078-c5d6a63e-cb42-4419-8afe-bed1319aedb5.png)
+  动机：音乐源分离一直是信号处理中的一个流行话题，不仅因为它在技术上的困难，而且还因为它在许多商业应用中的重要性。本文受到UNet-CNN的启发，推出一种新的自我注意网络来分离音乐中的声音和伴奏。<br>
+  方法：网络结构与上一篇相似，输入和输出是时域上的短时傅里叶变换的频谱图。<br>
+  ![image](https://user-images.githubusercontent.com/41570758/151650078-c5d6a63e-cb42-4419-8afe-bed1319aedb5.png)
+- [INTERSPEECH 2019]On the Importance of Audio-source Separation for Singer Identification in Polyphonic Music <br>
+  动机：虽然识别歌手与说话人识别相似，但由于背景伴奏对歌手特定信息的干扰，这是具有挑战性的。将背景伴奏与歌唱声乐分离将有助于我们克服干扰。<br>
+  方法：1、使用基于Wave-U-Net的音频源分离方法从多调歌曲中提取歌声。提取的歌声用于基于i向量的歌手识别系统。<br>
+        2、探索了不同的最先进的音频源分离方法，以建立所考虑的方法在歌手识别中的作用。<br>
+        3、所提出的歌手识别框架比基线的绝对精度提高了5.66%。<br>
+        ![image](https://user-images.githubusercontent.com/41570758/151651077-8f557a65-bb3c-415a-a42c-261b813df374.png)
 
   
   
