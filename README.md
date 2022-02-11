@@ -41,6 +41,13 @@ https://web.cse.ohio-state.edu/~wang.77/pnl/ <br>
         2、探索了不同的最先进的音频源分离方法，以建立所考虑的方法在歌手识别中的作用。<br>
         3、所提出的歌手识别框架比基线的绝对精度提高了5.66%。<br>
         ![image](https://user-images.githubusercontent.com/41570758/151651077-8f557a65-bb3c-415a-a42c-261b813df374.png)
+- [ICASSP 2021]SEMI-SUPERVISED SINGING VOICE SEPARATION WITH NOISY SELF-TRAINING <br>
+  动机：现在大多数针对歌声分离的研究都在有监督学习上，并且歌声分离的数据集的规模一般较小。本文使用半监督学习和大规模数据集来提升歌声分离的性能。<br>
+  方法：1、使用一个大的无标记语料库来改进在有噪声的自训练框架下的分离结果。分离模型使用PoCoNet。<br>
+         ![image](https://user-images.githubusercontent.com/41570758/153552816-6060e2ed-309c-46f0-b703-e0969930cd8d.png)
+        2、展示了数据增强如何提高模型的泛化能力，重点关注源之间的随机再混合。<br>
+        3、使用vad来评估学生训练中的自标记数据的质量，以进行数据过滤。VAD网络是2D-CRNN<br>
+        ![捕获](https://user-images.githubusercontent.com/41570758/153552844-753def5c-5bb3-47f7-8e2b-26f7ca831a01.JPG)
 
   
   
