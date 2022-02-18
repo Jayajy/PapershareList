@@ -48,6 +48,11 @@ https://web.cse.ohio-state.edu/~wang.77/pnl/ <br>
         2、展示了数据增强如何提高模型的泛化能力，重点关注源之间的随机再混合。<br>
         3、使用vad来评估学生训练中的自标记数据的质量，以进行数据过滤。VAD网络是2D-CRNN<br>
         ![捕获](https://user-images.githubusercontent.com/41570758/153552844-753def5c-5bb3-47f7-8e2b-26f7ca831a01.JPG)
+- [ICASSP 2021]SINGLE CHANNEL VOICE SEPARATION FOR UNKNOWN NUMBER OF SPEAKERS UNDER REVERBERANT AND NOISY SETTINGS <br>
+  动机：对于未知说话人数量的语音分离技术并不成熟，本文针对之前的一项未知说话人数量的语音分离任务进行改进。<br>
+  方法：直接以音频波形为输入，使用一维卷积进行编码，编码后得到二维张量。将这个二维张量进行分块，连接成三维张量。使用MULCAT块对块内和块间进行建模。<br>
+        针对于分离模块，引入一个门控网络对扬声器数量进行估计，根据估计结果将输入送进对应的专家模块中。然后输出分离后的语音。
+  ![image](https://user-images.githubusercontent.com/41570758/154625233-5d5d6bc9-e7d7-4581-b3ea-919b05a4e8b9.png)
 
   
   
