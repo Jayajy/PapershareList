@@ -25,7 +25,7 @@ https://web.cse.ohio-state.edu/~wang.77/pnl/ <br>
   ![image](https://user-images.githubusercontent.com/41570758/154625233-5d5d6bc9-e7d7-4581-b3ea-919b05a4e8b9.png)
 - [ICASSP 2022]MULTI-QUERY MULTI-HEAD ATTENTION POOLING AND INTER-TOPK PENALTY FOR SPEAKER VERIFICATION <br>
   动机：大多数多头注意力集中机制要么通过多个头部来关注整个特征，要么只关注整个特征的几个部分。我们提出的MQMHA结合了这两种机制，并获得了更多样化的信息。为了进一步提高类间的可辨别性，我们提出了一种对一些混淆的说话者增加额外的类间topk惩罚的方法。<br>
-  方法：1、MQMHA基本公式：![image](https://user-images.githubusercontent.com/41570758/155662122-b6a0f275-a512-4f71-a65c-75e13ff41041.png)
+  方法：1、MQMHA基本公式：![image](https://user-images.githubusercontent.com/41570758/155662122-b6a0f275-a512-4f71-a65c-75e13ff41041.png)<br>
         2、Inter-TopK惩罚公式：![image](https://user-images.githubusercontent.com/41570758/155662215-aacbef10-db03-45a0-95b6-26aa5a59ea9b.png)
 
 ## Music Information RetrievLearning 
