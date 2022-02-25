@@ -18,6 +18,16 @@ https://web.cse.ohio-state.edu/~wang.77/pnl/ <br>
  - [IEEE/ACM TASLP 2020]Learning Complex Spectral Mapping With Gated Convolutional Recurrent Networks for Monaural Speech Enhancemental <br>
    动机：相位信息对语音质量的影响很大。本文使用复谱映射提取出纯净语音的实部谱和虚部谱，来增强语音的幅度谱和相位谱的准确性。根据前人的工作，本文提出一种新型CRN，提出了一种用于复数谱映射的门控卷积循环网络(GCRN)。 <br>
    方法：每个卷积层或解卷积层被相应的门控线性单元（GLU）块所取代；LSTM采用了分组策略；在最后一个去卷积层的基础上增加了一个线性层来预测实谱和虚谱。<br>
+ - [ICASSP 2021]SINGLE CHANNEL VOICE SEPARATION FOR UNKNOWN NUMBER OF SPEAKERS UNDER REVERBERANT AND NOISY SETTINGS <br>
+  动机：对于未知说话人数量的语音分离技术并不成熟，本文针对之前的一项未知说话人数量的语音分离任务进行改进。<br>
+  方法：直接以音频波形为输入，使用一维卷积进行编码，编码后得到二维张量。将这个二维张量进行分块，连接成三维张量。使用MULCAT块对块内和块间进行建模。<br>
+        针对于分离模块，引入一个门控网络对扬声器数量进行估计，根据估计结果将输入送进对应的专家模块中。然后输出分离后的语音。
+  ![image](https://user-images.githubusercontent.com/41570758/154625233-5d5d6bc9-e7d7-4581-b3ea-919b05a4e8b9.png)
+- [ICASSP 2022]MULTI-QUERY MULTI-HEAD ATTENTION POOLING AND INTER-TOPK PENALTY FOR SPEAKER VERIFICATION <br>
+  动机：大多数多头注意力集中机制要么通过多个头部来关注整个特征，要么只关注整个特征的几个部分。我们提出的MQMHA结合了这两种机制，并获得了更多样化的信息。为了进一步提高类间的可辨别性，我们提出了一种对一些混淆的说话者增加额外的类间topk惩罚的方法。<br>
+  方法：1、MQMHA基本公式：![image](https://user-images.githubusercontent.com/41570758/155662122-b6a0f275-a512-4f71-a65c-75e13ff41041.png)
+        2、Inter-TopK惩罚公式：![image](https://user-images.githubusercontent.com/41570758/155662215-aacbef10-db03-45a0-95b6-26aa5a59ea9b.png)
+
 ## Music Information RetrievLearning 
 - [IJCNN(International Joint Conference on Neural Networks) 2021]Large-scale singer recognition using deep metric learning: an experimental study <br>
   动机：歌手识别任务由于音乐伴奏对于人声造成的低信噪比，导致其任务较为困难。并且目前针对这一任务的数据集较少，并且数据集内歌手数量也很有限，则限制了识别的泛化性。本文构建了一个由5057个歌手构成的大规模数据集，使用这一数据集进行了一系列的研究。 <br>
@@ -48,11 +58,8 @@ https://web.cse.ohio-state.edu/~wang.77/pnl/ <br>
         2、展示了数据增强如何提高模型的泛化能力，重点关注源之间的随机再混合。<br>
         3、使用vad来评估学生训练中的自标记数据的质量，以进行数据过滤。VAD网络是2D-CRNN<br>
         ![捕获](https://user-images.githubusercontent.com/41570758/153552844-753def5c-5bb3-47f7-8e2b-26f7ca831a01.JPG)
-- [ICASSP 2021]SINGLE CHANNEL VOICE SEPARATION FOR UNKNOWN NUMBER OF SPEAKERS UNDER REVERBERANT AND NOISY SETTINGS <br>
-  动机：对于未知说话人数量的语音分离技术并不成熟，本文针对之前的一项未知说话人数量的语音分离任务进行改进。<br>
-  方法：直接以音频波形为输入，使用一维卷积进行编码，编码后得到二维张量。将这个二维张量进行分块，连接成三维张量。使用MULCAT块对块内和块间进行建模。<br>
-        针对于分离模块，引入一个门控网络对扬声器数量进行估计，根据估计结果将输入送进对应的专家模块中。然后输出分离后的语音。
-  ![image](https://user-images.githubusercontent.com/41570758/154625233-5d5d6bc9-e7d7-4581-b3ea-919b05a4e8b9.png)
+
+  
 
   
   
