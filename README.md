@@ -26,7 +26,12 @@ https://web.cse.ohio-state.edu/~wang.77/pnl/ <br>
 - [ICASSP 2022]MULTI-QUERY MULTI-HEAD ATTENTION POOLING AND INTER-TOPK PENALTY FOR SPEAKER VERIFICATION <br>
   动机：大多数多头注意力集中机制要么通过多个头部来关注整个特征，要么只关注整个特征的几个部分。我们提出的MQMHA结合了这两种机制，并获得了更多样化的信息。为了进一步提高类间的可辨别性，我们提出了一种对一些混淆的说话者增加额外的类间topk惩罚的方法。<br>
   方法：1、MQMHA基本公式：![image](https://user-images.githubusercontent.com/41570758/155662122-b6a0f275-a512-4f71-a65c-75e13ff41041.png)<br>
-        2、Inter-TopK惩罚公式：![image](https://user-images.githubusercontent.com/41570758/155662215-aacbef10-db03-45a0-95b6-26aa5a59ea9b.png)
+        2、Inter-TopK惩罚公式：![image](https://user-images.githubusercontent.com/41570758/155662215-aacbef10-db03-45a0-95b6-26aa5a59ea9b.png)<br>
+- [ICASSP 2022]PHASE CONTINUITY: LEARNING DERIVATIVES OF PHASE SPECTRUM FOR SPEECH ENHANCEMENT <br>
+  动机：现代神经语音增强模型通常在其训练损失项中包括各种形式的相位信息，包括明确的或隐式的。本文引入一个相位连续性损失，考虑了相对相位在时间轴和频率轴上的变化。<br>
+  方法：提出了一个相位连续性损失函数。<br>
+        ![image](https://user-images.githubusercontent.com/41570758/156729044-4d33d3e3-1c4b-472e-8d5e-1b6fec432891.png)<br>
+
 
 ## Music Information RetrievLearning 
 - [IJCNN(International Joint Conference on Neural Networks) 2021]Large-scale singer recognition using deep metric learning: an experimental study <br>
