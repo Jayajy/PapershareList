@@ -63,6 +63,14 @@ https://web.cse.ohio-state.edu/~wang.77/pnl/ <br>
         2、展示了数据增强如何提高模型的泛化能力，重点关注源之间的随机再混合。<br>
         3、使用vad来评估学生训练中的自标记数据的质量，以进行数据过滤。VAD网络是2D-CRNN<br>
         ![捕获](https://user-images.githubusercontent.com/41570758/153552844-753def5c-5bb3-47f7-8e2b-26f7ca831a01.JPG)
+## Sound Event Detection
+- [ICASSP 2021]AN IMPROVED MEAN TEACHER BASED METHOD FOR LARGE SCALE WEAKLY LABELED SEMI-SUPERVISED SOUND EVENT DETECTION <br>
+  动机：提升DCASE task4性能效果，旨在更准确的声音事件检测。<br>
+  方法：1、使用基线半监督模型MeanTeacher。<br>
+        2、修改了模型内部结构——添加了事件感知模块。<br>
+        3、使用学生模型的输出作为伪目标（经过随机推理）<br>
+        4、使用了Mixup数据增强。<br>
+        ![image](https://user-images.githubusercontent.com/41570758/160056516-420c4868-9618-4f81-b8ef-384a80e68b37.png)
 
   
 
