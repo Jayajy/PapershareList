@@ -63,6 +63,15 @@ https://web.cse.ohio-state.edu/~wang.77/pnl/ <br>
         2、展示了数据增强如何提高模型的泛化能力，重点关注源之间的随机再混合。<br>
         3、使用vad来评估学生训练中的自标记数据的质量，以进行数据过滤。VAD网络是2D-CRNN<br>
         ![捕获](https://user-images.githubusercontent.com/41570758/153552844-753def5c-5bb3-47f7-8e2b-26f7ca831a01.JPG)
+- [ISMIR 2021]Hybrid Spectrogram and Waveform Source Separation<br>
+  动机：为了提升音乐源分离的性能，将时域和频域的信息结合进行处理。获得Music Demixing Challenge 2021冠军。<br>
+  方法：1、沿用了Demucs网络，但是对一些细节部分进行改动，encoder和decoder结构内部ReLU层被GELU替代。<br>
+        2、将时域信息和频域信息作为两个分支共同送进网络，在中间层将两个特征结合，添加了BiLSTM层和局部注意力层。<br>
+        ![image](https://user-images.githubusercontent.com/41570758/160840824-2a8ad914-0969-4d1e-bd3d-4ca9dafe7743.png)
+        ![image](https://user-images.githubusercontent.com/41570758/160840935-69dcecd2-ac15-4c8b-978f-bb9dd89da8c7.png)
+
+        
+        
 ## Sound Event Detection
 - [ICASSP 2021]AN IMPROVED MEAN TEACHER BASED METHOD FOR LARGE SCALE WEAKLY LABELED SEMI-SUPERVISED SOUND EVENT DETECTION <br>
   动机：提升DCASE task4性能效果，旨在更准确的声音事件检测。<br>
