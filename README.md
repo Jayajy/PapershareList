@@ -31,6 +31,9 @@ https://web.cse.ohio-state.edu/~wang.77/pnl/ <br>
   动机：现代神经语音增强模型通常在其训练损失项中包括各种形式的相位信息，包括明确的或隐式的。本文引入一个相位连续性损失，考虑了相对相位在时间轴和频率轴上的变化。<br>
   方法：提出了一个相位连续性损失函数。<br>
         ![image](https://user-images.githubusercontent.com/41570758/156729044-4d33d3e3-1c4b-472e-8d5e-1b6fec432891.png)<br>
+- [ACSSC 2021]LOW LATENCY TIME DOMAIN MULTICHANNEL SPEECH AND MUSIC SOURCE SEPARATION <br>
+  动机：为了使盲源分离能够有更低的延时，并且不只是分离说话人声音，还可以分离音乐，噪音等。
+  方法：没有使用神经网络。基于时域的解混结构，模拟了模拟了在麦克风之间的源的传播延迟并且引入衰减因子对声源进行分离。并且使用了一种新的目标优化方法——随机方向。这种方法可以有效地解决局部极小值的问题，对于非凸非线性目标函数的优化能更加快速锁定最小值。
 
 
 ## Music Information RetrievLearning 
