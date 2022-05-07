@@ -34,7 +34,9 @@ https://web.cse.ohio-state.edu/~wang.77/pnl/ <br>
 - [ACSSC 2021]LOW LATENCY TIME DOMAIN MULTICHANNEL SPEECH AND MUSIC SOURCE SEPARATION <br>
   动机：为了使盲源分离能够有更低的延时，并且不只是分离说话人声音，还可以分离音乐，噪音等。
   方法：没有使用神经网络。基于时域的解混结构，模拟了模拟了在麦克风之间的源的传播延迟并且引入衰减因子对声源进行分离。并且使用了一种新的目标优化方法——随机方向。这种方法可以有效地解决局部极小值的问题，对于非凸非线性目标函数的优化能更加快速锁定最小值。
-
+- [INTERSPEECH 2022]On monoaural speech enhancement for automatic recognition of real noisy speech using mixture invariant training<br>
+  动机：为了应用更多未标记数据以使语音识别更鲁棒。<br>
+  方法：使用了MixIT混合不变训练对增强后的语音进行重构，与开始的输入语音做loss，以提升鲁棒性。<br>
 
 ## Music Information RetrievLearning 
 - [IJCNN(International Joint Conference on Neural Networks) 2021]Large-scale singer recognition using deep metric learning: an experimental study <br>
