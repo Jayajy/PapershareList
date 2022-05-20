@@ -37,6 +37,9 @@ https://web.cse.ohio-state.edu/~wang.77/pnl/ <br>
 - [INTERSPEECH 2022]On monoaural speech enhancement for automatic recognition of real noisy speech using mixture invariant training<br>
   动机：为了应用更多未标记数据以使语音识别更鲁棒。<br>
   方法：使用了MixIT混合不变训练对增强后的语音进行重构，与开始的输入语音做loss，以提升鲁棒性。<br>
+- []TFPSNET: TIME-FREQUENCY DOMAIN PATH SCANNING NETWORK FOR SPEECH SEPARATION <br>
+  动机：只在时域上做语音分离虽然取得和较好的性能，但是针对特定空间缺乏可解释性，在一些极端条件下不稳定。所以本文提出T-F域上的语音分离。<br>
+  方法：沿用了DPTNet，在分离模块中增加了T-F path scanning，并且损失函数也设置了T-F损失：即针对时间维度和频率维度做损失。<br>
 
 ## Music Information RetrievLearning 
 - [IJCNN(International Joint Conference on Neural Networks) 2021]Large-scale singer recognition using deep metric learning: an experimental study <br>
